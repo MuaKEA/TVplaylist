@@ -1,8 +1,34 @@
 #EXTM3U
-#EXT-X-VERSION:3
-#EXT-X-MEDIA:GROUP-ID="group1",NAME="Title1",DEFAULT=YES,AUTOSELECT=YES,URI="http://example.com/stream1"
-#EXTINF:-1 group-title="Group 1",Title 1
-http://example.com/stream1
-#EXT-X-MEDIA:GROUP-ID="group2",NAME="Title2",DEFAULT=YES,AUTOSELECT=YES,URI="http://example.com/stream2"
-#EXTINF:-1 group-title="Group 2",Title 2
-http://example.com/stream2
+
+#EXTINF:-1 tvg-id="4U_TV_id" tvg-logo="https://example.com/4UTV_logo.png" group-title="Entertainment",4U TV (HD)
+http://example.com/4U_TV.m3u8
+
+#EXTINF:-1 tvg-id="24_TV_id" tvg-logo="https://example.com/24TV_logo.png" group-title="News",24 TV (HD)
+http://example.com/24_TV.m3u8
+
+#EXTINF:-1 tvg-id="360_TV_id" tvg-logo="https://example.com/360TV_logo.png" group-title="Entertainment",360 TV (HD)
+http://example.com/360_TV.m3u8
+
+#EXTINF:-1 tvg-id="AFROTURK_TV_id" tvg-logo="https://example.com/Afroturk_logo.png" group-title="Entertainment",Afroturk TV (HD)
+http://example.com/Afroturk_TV.m3u8
+
+#EXTINF:-1 tvg-id="AKIT_TV_id" tvg-logo="https://example.com/AkitTV_logo.png" group-title="News",Akit TV (HD)
+http://example.com/AkitTV.m3u8
+
+#EXTINF:-1 tvg-id="AKSU_TV_id" tvg-logo="https://example.com/AksuTV_logo.png" group-title="Entertainment",Aksu TV (HD)
+http://example.com/Aksu_TV.m3u8
+
+#EXTINF:-1 tvg-id="CGTN_Documentary_id" tvg-logo="https://example.com/CGTN_logo.png" group-title="Documentary",CGTN Documentary (HD)
+http://example.com/CGTN_Documentary.m3u8
+
+#EXTINF:-1 tvg-id="ETV_Kayseri_id" tvg-logo="https://example.com/ETV_logo.png" group-title="General",ETV Kayseri (HD)
+http://example.com/ETV_Kayseri.m3u8
+
+#EXTINF:-1 tvg-id="DIYANET_TV_id" tvg-logo="https://example.com/DiyanetTV_logo.png" group-title="Religious",Diyanet TV (HD)
+http://example.com/Diyanet_TV.m3u8
+
+#EXTINF:-1 tvg-id="OTHER_CHANNEL_id" tvg-logo="https://example.com/OtherTV_logo.png" group-title="General",Other Channels (HD)
+http://example.com/Other_TV.m3u8
+
+#EXTINF:-1 tvg-id="ANOTHER_CHANNEL_id" tvg-logo="https://example.com/AnotherTV_logo.png" group-title="Entertainment",Another Channel (HD)
+http://example.com/Another_TV.m3u8
